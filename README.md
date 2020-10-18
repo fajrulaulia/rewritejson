@@ -14,5 +14,7 @@ this how to convert payload to json
 ``` go
 defined:=[]string{"code:number|500", "message:string|This Error"}
 output := core.Response(defined)
-w.Write(output)
 ```
+
+## Author
+- fajrul aulia
