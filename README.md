@@ -4,6 +4,9 @@ Package to generate to json for easy write something
 
 ## How to use
 Package strconv implements conversions to and from array string representations of JSON.\
+add package into you project :\
+`go get github.com/fajrulaulia/rewritejson`
+
 import :\
 `import "github.com/fajrulaulia/rewritejson"`
 
