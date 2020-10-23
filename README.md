@@ -2,22 +2,22 @@
 Package to generate to json for easy write something
 
 
-## How to use
-Package strconv implements conversions to and from array string representations of JSON.\
-add package into you project :\
+## Installation
+use command `go` for get package.
 `go get github.com/fajrulaulia/rewritejson`
 
-import :\
+import : \
 `import c "github.com/fajrulaulia/rewritejson"`
 
-### Standard Definition
+## Usage
+this is a function structure how to use this package.\
 > func rewritejson.Response(data []string) []byte
 
-### Implementation in real-life
+## Example
 ``` go
-package ..
+package ......
 ..............
-`import c "github.com/fajrulaulia/rewritejson"`
+import c "github.com/fajrulaulia/rewritejson"
 ...............
 ...............
 defined:=[]string{"code:number|500", "message:string|This Error"}
