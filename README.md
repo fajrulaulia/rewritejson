@@ -8,15 +8,20 @@ add package into you project :\
 `go get github.com/fajrulaulia/rewritejson`
 
 import :\
-`import "github.com/fajrulaulia/rewritejson"`
+`import c "github.com/fajrulaulia/rewritejson"`
 
 ### Standard Definition
 > func rewritejson.Response(data []string) []byte
 
 ### Implementation in real-life
 ``` go
+package ..
+..............
+`import c "github.com/fajrulaulia/rewritejson"`
+...............
+...............
 defined:=[]string{"code:number|500", "message:string|This Error"}
-output := core.Response(defined)
+output := c.Response(defined)
 ```
 
 ## Author
